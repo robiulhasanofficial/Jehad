@@ -52,7 +52,9 @@ nav a{
 }
 /* Hedar stlel */
 .header{
-    background-color: #fff8f3;
+background-image: url('./images/gradient2.png');
+background-repeat: no-repeat;
+background-position: center;
 }
 .banner{
     padding: 30px 30px 30px 150px ;
@@ -65,9 +67,11 @@ nav a{
 }
 .banner .bw {
     font-size:45px ;
+    color: white;
 }
 .banner .bt {
     font-size: 60px;
+    color: white;
 }
 /* main */
 
