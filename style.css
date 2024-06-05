@@ -1,0 +1,192 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    margin: 0 200px;
+}
+ 
+ body{
+    // <uniquifier>: Use a unique and descriptive class name
+// <width>: Use a value from 75 to 100
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" <width>;
+}
+ }
+.jc{ 
+    color: #fd6e0a;
+}
+
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800
+    ;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+nav li { 
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    color: #474747;
+}
+
+.bp{
+    border-radius: 5px;
+    background-color: #fd6e0a;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    
+}
+/* Hedar stlel */
+.header{
+    background-color: #fff8f3;
+}
+.banner{
+    padding: 30px 30px 30px 150px ;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner .js {
+    width: 400px;
+}
+.banner .bw {
+    font-size:45px ;
+}
+.banner .bt {
+    font-size: 60px;
+}
+/* main */
+
+.about{ 
+    padding: 130px; 
+    border-radius: 10px;
+    background-color: #fff8f3;
+    margin: 130px;
+}
+.dt{
+    color: #181818
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700px;
+}
+
+    
+.dd { 
+    color: 
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700px;
+
+}
+.ap{
+    display: flex;
+    justify-content: space-around;
+}
+.ai{
+    text-align: center;
+}
+/* deta hade */
+.ht{
+    text-align: center;
+}
+/* skill imge */
+.im{
+    width: 50px;
+    height: 50px;
+    box-shadow: 5px 5px 5px 5px orange;
+}
+/* skil styel */
+.sc{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.s{
+    padding:50pxpx;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 10px 10px 50px 10px yellow;
+    text-align:center;
+}
+.st{
+    color: #fd6e0a;
+    font-size:35px ;
+}
+.sd{
+    color: green;
+    font-size: 30px;
+}
+
+/* rusame styel */
+.rc{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700px;
+}
+.Rc{
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 230px;
+}
+
+.md{
+text-align: center;
+margin: 10p 10px 10px 10px;
+background-image: url('./lion.jpg');
+}
+.tr{
+    color: white;
+}
+.sn{
+    color:white;
+}
+.sf{
+    color: white;
+
+}
+.dt{color:yellow;}
+.Rt{ color: aqua;}
+
+.Download{
+    text-align: center;
+    margin-top: 50px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:#fff8f3 ;
+    padding: 130px 230px;
+    margin-top: 100px;
+}
+.cct input[type="text"],.cct input[type="Email"],
+textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 0;
+    width: 100%;
+}
+.JHR{
+    color:orange;
+    font-size: 30px;
+    font-weight: 30px;
+    
+}
+
