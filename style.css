@@ -189,4 +189,9 @@ textarea{
     font-weight: 30px;
     
 }
+.pimg{
+
+    display: flex;
+    justify-content: space-around;
+}
 
