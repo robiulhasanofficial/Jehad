@@ -17,6 +17,7 @@ nav{
   font-variation-settings:
     "wdth" <width>;
 }
+
  }
 .jc{ 
     color: #fd6e0a;
@@ -41,7 +42,7 @@ nav a{
 }
 
 .bp{
-    border-radius: 5px;
+    border-radius: 50px;
     background-color: #fd6e0a;
     border: 0;
     color: white;
@@ -67,11 +68,13 @@ background-position: center;
 }
 .banner .bw {
     font-size:45px ;
-    color: white;
+    color: black;
+   
+    
 }
 .banner .bt {
     font-size: 60px;
-    color: white;
+    color: black
 }
 /* main */
 
@@ -82,7 +85,7 @@ background-position: center;
     margin: 130px;
 }
 .dt{
-    color: #181818
+
     text-align: center;
     font-size: 35px;
     font-weight: 700px;
@@ -90,10 +93,11 @@ background-position: center;
 
     
 .dd { 
-    color: 
     text-align: center;
     font-size: 35px;
-    font-weight: 700px;
+    
+
+
 
 }
 .ap{
@@ -151,6 +155,10 @@ background-position: center;
 text-align: center;
 margin: 10p 10px 10px 10px;
 background-image: url('./lion.jpg');
+border: 5px solid greenyellow;
+border-radius: 60px;
+margin-top: 50px;
+box-shadow: 40px 40px 40px 40px greenyellow;
 }
 .tr{
     color: white;
@@ -198,4 +206,149 @@ textarea{
     display: flex;
     justify-content: space-around;
 }
+/* mobile  */
+@media screen and (max-width:576px) {
+    .pimg ,.Rc,nav,ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .modi{
+        border: 5px solid greenyellow;
+        border-radius: 10px;
+        box-shadow: 30px 30px 30px red;
+        text-align: center;
+    }
+    .about{
+        padding: 20px;
+        border: 5px solid greenyellow;
+        border-radius: 50px;
+        box-shadow: 30px 30px 30px greenyellow;
+        position: relative;
+        top:-300px
+    
+    }
+    .ap{
+        flex-direction: column;
+    }
+    footer{
+        padding: 10px;
+        flex-direction: column;
+}
+.fimg{
+    display: flex;
+    justify-content:space-around ;
+    gap: 20px;
+}
+.cct input[type="text"],.cct input[type="Email"],
+textarea{width: 70%;
+    border-radius: 20px;
+    border: 5px solid greenyellow;
+}
+.banner{
+    flex-direction: column;
+    gap: 400px;
+    padding: 10px;
 
+}
+.js{
+    width: 100%;
+    border: 5px solid yellow;
+    border-radius: 50px;
+    position: relative;
+    left: -50px;
+    top: -360px;
+    box-shadow:30px 30px 30px #fd6e0a;
+
+}
+.header{
+    background-image: none;
+}
+nav{
+    border: 5px solid greenyellow;
+    border-radius: 60px;
+    box-shadow: 30px 30px 30px greenyellow;
+}
+.banner .bw,.banner .bt {
+    box-shadow: 20px 20px 20px greenyellow;
+    border:5px solid greenyellow ;
+    border-radius: 40px;
+    text-align: center;
+    color:orange;
+}
+}
+
+@media screen and (min-width:576px) and (max-width:1000px){
+
+    .pimg ,.Rc,nav,ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .modi{
+        border: 5px solid greenyellow;
+        border-radius: 10px;
+        box-shadow: 30px 30px 30px red;
+        text-align: center;
+    }
+    .about{
+        padding: 20px;
+        border: 5px solid greenyellow;
+        border-radius: 50px;
+        box-shadow: 30px 30px 30px greenyellow;
+        position: relative;
+        top:-300px
+    
+    }
+    .ap{
+        flex-direction: column;
+    }
+    footer{
+        padding: 10px;
+        flex-direction: column;
+}
+.fimg{
+    display: flex;
+    justify-content:space-around ;
+    gap: 20px;
+}
+.cct input[type="text"],.cct input[type="Email"],
+textarea{width: 70%;
+    border-radius: 20px;
+    border: 5px solid greenyellow;
+}
+.banner{
+    flex-direction: column;
+    gap: 400px;
+    padding: 10px;
+
+}
+.js{
+    width: 100%;
+    border: 5px solid yellow;
+    border-radius: 50px;
+    position: relative;
+    left: -50px;
+    top: -360px;
+    box-shadow:30px 30px 30px #fd6e0a;
+
+}
+.header{
+    background-image: none;
+}
+nav{
+    border: 5px solid greenyellow;
+    border-radius: 60px;
+    box-shadow: 30px 30px 30px greenyellow;
+}
+.banner .bw,.banner .bt {
+    box-shadow: 20px 20px 20px greenyellow;
+    border:5px solid greenyellow ;
+    border-radius: 40px;
+    text-align: center;
+    color:orange;
+}
+}
+
+
+
+
+    
