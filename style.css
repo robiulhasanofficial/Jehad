@@ -224,8 +224,13 @@ textarea{
         border-radius: 50px;
         box-shadow: 30px 30px 30px greenyellow;
         position: relative;
-        top:-300px
+        top:-300px;
+        margin: 0px;
+
     
+    }
+    .Rc{
+        padding: 0px;
     }
     .ap{
         flex-direction: column;
@@ -255,7 +260,6 @@ textarea{width: 70%;
     border: 5px solid yellow;
     border-radius: 50px;
     position: relative;
-    left: -50px;
     top: -360px;
     box-shadow:30px 30px 30px #fd6e0a;
 
@@ -267,6 +271,8 @@ nav{
     border: 5px solid greenyellow;
     border-radius: 60px;
     box-shadow: 30px 30px 30px greenyellow;
+    margin: 0px;
+
 }
 .banner .bw,.banner .bt {
     box-shadow: 20px 20px 20px greenyellow;
